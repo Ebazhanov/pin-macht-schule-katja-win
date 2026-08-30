@@ -38,3 +38,4 @@ A responsive static showcase website for the **PIN macht Schule** art competitio
 1. **Install Vercel CLI:**
    ```bash
    npm i -g vercel
+   vercel --prod
