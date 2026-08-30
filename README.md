@@ -1,6 +1,7 @@
 # PIN macht Schule — Gewinner
 
-🌐 **Live Website:** [https://pin-macht-schule-katja-win.vercel.app](https://pin-macht-schule-katja-win.vercel.app)
+🌐 **Live Website:** [https://pin-macht-schule-katja-win.vercel.app](https://pin-macht-schule-katja-win.vercel.app)  
+🏛️ **Archived Original (Wayback Machine):** [pin-macht-schule.de (Nov 2019 Snapshot)](https://web.archive.org/web/20191111202148/https://pin-macht-schule.de/)
 
 A responsive static showcase website for the **PIN macht Schule** art competition (*Sonderstempel- und Briefmarken-Wettbewerb für Berliner Grundschulen*).
 
@@ -34,6 +35,6 @@ A responsive static showcase website for the **PIN macht Schule** art competitio
 
 ### Vercel CLI (Recommended)
 
-**Install Vercel CLI:**
+1. **Install Vercel CLI:**
    ```bash
    npm i -g vercel
