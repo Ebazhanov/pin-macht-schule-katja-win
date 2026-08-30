@@ -1,102 +1,232 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PIN macht Schule — Победители</title>
+    <title>PIN macht Schule — Gewinner</title>
 
-    <!-- Подключение CSS из архива -->
+    <!-- Исходные CSS из архива -->
     <link rel="stylesheet" href="katja_ausweises_back_files/css_xk9mMWFa_7xPuj9GRkROb4jde2uUqfm0CEAH4OjG288.css">
     <link rel="stylesheet" href="katja_ausweises_back_files/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css">
     <link rel="stylesheet" href="katja_ausweises_back_files/css_Thp1QEB4qoB5nfa5xS7vRV6wtSxY0aHxZzTykwhQUDg.css">
-    <link rel="stylesheet" href="katja_ausweises_back_files/www-player-2x-webp-vfl5eXvqz.css">
+
+    <style>
+        /* Сброс конфликтующих отступов и высоты из старых CSS */
+        html, body {
+            margin: 0 !important;
+            padding: 0 !important;
+            height: auto !important;
+            min-height: 100% !important;
+        }
+
+        /* Центрирование и максимальная ширина контента */
+        .site-header, .main-content {
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 20px 15px;
+        }
+
+        .site-header {
+            padding-bottom: 0;
+        }
+
+        .main-logo {
+            max-height: 60px;
+            width: auto;
+            margin-bottom: 20px;
+        }
+
+        .header-banner {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 4px;
+        }
+
+        .intro {
+            text-align: center;
+            margin: 30px 0 40px;
+        }
+
+        .intro h1 {
+            color: #8cc63f;
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        .intro p {
+            color: #555;
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .featured-winner {
+            margin-bottom: 50px;
+        }
+
+        .featured-winner h2 {
+            text-align: center;
+            color: #00457c;
+            font-size: 24px;
+            margin-bottom: 25px;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #f9f9f9;
+            border-radius: 6px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .card h3 {
+            font-size: 16px;
+            color: #333;
+            padding: 15px 10px;
+            margin: 0;
+        }
+
+        /* Принудительная подтяжка подвала без белой пустоты */
+        footer.site-footer {
+            background-color: #717171 !important;
+            padding: 40px 20px !important;
+            margin-top: 40px !important;
+            height: auto !important;
+            min-height: 0 !important;
+            max-height: none !important;
+            display: block !important;
+            position: relative !important;
+            clear: both !important;
+        }
+
+        .partner-logos {
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+            gap: 50px !important;
+            flex-wrap: wrap !important;
+            max-width: 1140px !important;
+            margin: 0 auto !important;
+        }
+
+        /* Четкий крупный размер логотипов */
+        .partner-logos img {
+            height: 90px !important;
+            min-height: 90px !important;
+            max-height: 90px !important;
+            width: auto !important;
+            object-fit: contain !important;
+            display: block !important;
+        }
+    </style>
 </head>
 <body>
 
-<!-- Шапка сайта и логотипы -->
 <header class="site-header">
     <div class="logo-container">
-        <img src="katja_ausweises_back_files/pin-logo.svg" alt="Логотип PIN AG" class="main-logo">
+        <img src="katja_ausweises_back_files/pin-logo.svg" alt="PIN AG Logo" class="main-logo">
     </div>
     <div class="banner">
-        <img src="katja_ausweises_back_files/header_pin-macht-schule-2018_gewinner-stehen-fest.jpg" alt="PIN macht Schule 2018 — Победители определены" class="header-banner">
+        <img src="katja_ausweises_back_files/header_pin-macht-schule-2018_gewinner-stehen-fest.jpg" alt="PIN macht Schule 2018" class="header-banner">
     </div>
 </header>
 
-<!-- Основной контент страницы -->
 <main class="main-content">
     <section class="intro">
         <h1>PIN macht Schule</h1>
-        <p>Конкурс спецпогашений и почтовых марок для начальных школ Берлина.</p>
+        <p>Sonderstempel- und Briefmarken-Wettbewerb für Berliner Grundschulen.</p>
     </section>
 
-    <!-- Раздел победителей 2018 года -->
-    <section class="winners-section winners-2018">
-        <h2>Классы-победители 2018 года</h2>
-        <div class="winner-cards">
+    <!-- Главный блок: Ломоносовская школа -->
+    <section class="featured-winner">
+        <h2>Gewinnerklasse: Lomonossow-Grundschule</h2>
+        <div class="card-grid">
             <article class="card">
-                <img src="katja_ausweises_back_files/pin-macht-schule-2018_gewinnerklasse-anna-seghers-schule.jpg" alt="Класс-победитель: Школа им. Анны Зегерс">
-                <h3>Школа им. Анны Зегерс</h3>
+                <img src="photo/pin-macht-schule-2018_gewinnerklasse-lommonsssow-grundschule-2.jpg" alt="Lomonossow-Grundschule Preisverleihung">
+                <h3>Lomonossow-Grundschule — Preisverleihung</h3>
             </article>
             <article class="card">
-                <img src="katja_ausweises_back_files/pin-macht-schule-2018_gewinnerklasse-grundschule-am-gutshof.jpg" alt="Класс-победитель: Начальная школа Ам Гутсхоф">
-                <h3>Начальная школа Ам Гутсхоф</h3>
-            </article>
-            <article class="card">
-                <img src="katja_ausweises_back_files/pin-macht-schule_gewinner-gsunterdenkastanien_small.jpg" alt="Начальная школа Унтер ден Каштаниен">
-                <h3>Начальная школа Унтер ден Каштаниен</h3>
+                <img src="photo/pin_macht_schule_2018_gewinnermotive_klasse-1-2.jpg" alt="Gewinnermotiv Klasse 1-2">
+                <h3>Gewinnermotiv Klasse 1–2</h3>
             </article>
         </div>
     </section>
 
-    <!-- Раздел победителей 2017 года -->
-    <section class="winners-section winners-2017">
-        <h2>Классы-победители 2017 года</h2>
-        <div class="winner-cards">
+    <section class="featured-winner">
+        <h2>Weitere Gewinnerklassen 2018</h2>
+        <div class="card-grid">
             <article class="card">
-                <img src="katja_ausweises_back_files/pin_macht_schule_gewinner_2017_klasse_1-2.jpg" alt="Победитель 2017: 1–2 классы">
-                <h3>1–2 классы</h3>
+                <img src="katja_ausweises_back_files/pin-macht-schule-2018_gewinnerklasse-anna-seghers-schule.jpg" alt="Anna-Seghers-Schule">
+                <h3>Anna-Seghers-Schule</h3>
             </article>
             <article class="card">
-                <img src="katja_ausweises_back_files/pin_macht_schule_gewinner_2017_klasse_3-4.jpg" alt="Победитель 2017: 3–4 классы">
-                <h3>3–4 классы</h3>
+                <img src="katja_ausweises_back_files/pin-macht-schule-2018_gewinnerklasse-grundschule-am-gutshof.jpg" alt="Grundschule am Gutshof">
+                <h3>Grundschule am Gutshof</h3>
             </article>
             <article class="card">
-                <img src="katja_ausweises_back_files/pin_macht_schule_gewinner_2017_klasse_5-6.jpg" alt="Победитель 2017: 5–6 классы">
-                <h3>5–6 классы</h3>
-            </article>
-            <article class="card">
-                <img src="katja_ausweises_back_files/pin_macht_schule_gewinner_2017_tagesspiegel.jpg" alt="Специальный приз от Tagesspiegel">
-                <h3>Специальный приз Tagesspiegel</h3>
+                <img src="katja_ausweises_back_files/pin-macht-schule_gewinner-gsunterdenkastanien_small.jpg" alt="Grundschule unter den Kastanien">
+                <h3>Grundschule unter den Kastanien</h3>
             </article>
         </div>
     </section>
 
-    <!-- Архив победителей 2016 года -->
-    <section class="winners-section winners-2016">
-        <h2>Классы-победители 2016 года</h2>
-        <div class="winner-cards">
-            <article class="card"><img src="katja_ausweises_back_files/gewinnenklassen_aquarell-2016.jpg" alt="Акварель 2016"></article>
-            <article class="card"><img src="katja_ausweises_back_files/gewinnenklassen_brandenburgertor-2016.jpg" alt="Бранденбургские ворота 2016"></article>
-            <article class="card"><img src="katja_ausweises_back_files/gewinnenklassen_schule-am-buntzelberg-2016_0.jpg" alt="Школа Ам Бунтцельберг 2016"></article>
-            <article class="card"><img src="katja_ausweises_back_files/gewinnenklassen_winterlandschaft-2016.jpg" alt="Зимний пейзаж 2016"></article>
-            <article class="card"><img src="katja_ausweises_back_files/gewinnenklassen_wir-grundschule-2016.jpg" alt="Начальная школа Wir 2016"></article>
-            <article class="card"><img src="katja_ausweises_back_files/gewinnenklassen_zauberbaum-2016.jpg" alt="Волшебное дерево 2016"></article>
+    <section class="featured-winner">
+        <h2>Gewinnerklassen 2017</h2>
+        <div class="card-grid">
+            <article class="card">
+                <img src="katja_ausweises_back_files/pin_macht_schule_gewinner_2017_klasse_1-2.jpg" alt="Klasse 1-2">
+                <h3>Klasse 1–2</h3>
+            </article>
+            <article class="card">
+                <img src="katja_ausweises_back_files/pin_macht_schule_gewinner_2017_klasse_3-4.jpg" alt="Klasse 3-4">
+                <h3>Klasse 3–4</h3>
+            </article>
+            <article class="card">
+                <img src="katja_ausweises_back_files/pin_macht_schule_gewinner_2017_klasse_5-6.jpg" alt="Klasse 5-6">
+                <h3>Klasse 5–6</h3>
+            </article>
+            <article class="card">
+                <img src="katja_ausweises_back_files/pin_macht_schule_gewinner_2017_tagesspiegel.jpg" alt="Tagesspiegel Sonderpreis">
+                <h3>Tagesspiegel Sonderpreis</h3>
+            </article>
+        </div>
+    </section>
+
+    <section class="featured-winner">
+        <h2>Gewinnerklassen 2016</h2>
+        <div class="card-grid">
+            <article class="card"><img src="katja_ausweises_back_files/gewinnenklassen_aquarell-2016.jpg" alt="Aquarell 2016"><h3>Aquarell</h3></article>
+            <article class="card"><img src="katja_ausweises_back_files/gewinnenklassen_brandenburgertor-2016.jpg" alt="Brandenburger Tor 2016"><h3>Brandenburger Tor</h3></article>
+            <article class="card"><img src="katja_ausweises_back_files/gewinnenklassen_schule-am-buntzelberg-2016_0.jpg" alt="Schule am Buntzelberg 2016"><h3>Schule am Buntzelberg</h3></article>
+            <article class="card"><img src="katja_ausweises_back_files/gewinnenklassen_winterlandschaft-2016.jpg" alt="Winterlandschaft 2016"><h3>Winterlandschaft</h3></article>
+            <article class="card"><img src="katja_ausweises_back_files/gewinnenklassen_wir-grundschule-2016.jpg" alt="Wir Grundschule 2016"><h3>Wir Grundschule</h3></article>
+            <article class="card"><img src="katja_ausweises_back_files/gewinnenklassen_zauberbaum-2016.jpg" alt="Zauberbaum 2016"><h3>Zauberbaum</h3></article>
         </div>
     </section>
 </main>
 
-<!-- Подвал сайта и логотипы партнеров -->
 <footer class="site-footer">
     <div class="partner-logos">
-        <img src="katja_ausweises_back_files/bbd_logo.png" alt="Логотип BBD">
-        <img src="katja_ausweises_back_files/dekra_logo.png" alt="Логотип DEKRA">
-        <img src="katja_ausweises_back_files/mailalliance_logo.png" alt="Логотип Mail Alliance">
-        <img src="katja_ausweises_back_files/KlimaneutralerBriefversand_logo.png" alt="Логотип Климатически нейтральной почтовой доставки">
+        <img src="katja_ausweises_back_files/bbd_logo.png" alt="BBD Logo">
+        <img src="katja_ausweises_back_files/dekra_logo.png" alt="DEKRA Logo">
+        <img src="katja_ausweises_back_files/mailalliance_logo.png" alt="Mail Alliance Logo">
+        <img src="katja_ausweises_back_files/KlimaneutralerBriefversand_logo.png" alt="Klimaneutraler Briefversand Logo">
     </div>
 </footer>
 
-<!-- Подключение скриптов из архива -->
 <script src="katja_ausweises_back_files/js_fIBJ_rzx6JGKi6zqBu9NK90vGZHnsfQ-2NYsbdBdmPw.js"></script>
 <script src="katja_ausweises_back_files/js_EebRuRXFlkaf356V0T2K_8cnUVfCKesNTxdvvPSEhCM.js"></script>
 <script src="katja_ausweises_back_files/js_zEwEc4eDBxYLPmT7AbZiF9X1_YHVX2Pq4hPMkfdRESA.js"></script>
